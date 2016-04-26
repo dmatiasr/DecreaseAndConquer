@@ -44,8 +44,14 @@ public class FactorPorDos{
 		}
 	}
 	/*
+	En relacion a una de sus soluciones, considera que es mas economico computar n + n o 2 × n? Justifique
+	su respuesta.
+
 	El algoritmo de Russian Peasant Multiplication es mas eficiente debido a que
 	en bajo nivel la division y multiplicacion se basa en shifteos de registros, que es
 	menos costoso que el algoritmo de producto basado en una constante.
+	
+	Entonces, es mas economico computar 2 x n, ya q se basa en shifteos.
+
 	*/
 }
